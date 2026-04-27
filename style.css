@@ -28,7 +28,7 @@ body[tabindex] { outline: none; }
 .logo { height: 60px; }
 
 .menu a {
-  color: white; text-decoration: none; margin: 0 10px;
+  color: white; text-decoration: none; margin: 0 10px; font-size: 10px;
 }
 .menu a:hover, .menu a:focus {
   color: #ffcc00; outline: 2px solid #ffcc00;
