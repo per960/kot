@@ -76,7 +76,7 @@ body[tabindex] { outline: none; }
   display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;
 }
 .section-title { color: #00ff00; font-size: 16px; }
-.see-all { color: #00ff00; text-decoration: none; }
+.see-all { color: #00ff00; text-decoration: none; font-size: 13px; }
 .see-all:hover, .see-all:focus { color: #ffcc00; outline: 1px dotted; }
 
 .movie-row {
@@ -102,11 +102,11 @@ body[tabindex] { outline: none; }
 
 .movie-card .title {
   padding: 10px;
-  font-size: 14px;
+  font-size: 13px;
   text-align: center;
 }
 
-h3 { color: #FFEA00;}
+h3 { color: #FFEA00; font-size: 16px;}
 
 .lang-section { margin: 30px 10px; }
 .lang-card {
