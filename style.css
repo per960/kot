@@ -40,6 +40,7 @@ body[tabindex] { outline: none; }
   position: relative;
   overflow: hidden;
   margin-bottom: 2rem;
+
 }
 
 .hero-slider img {
@@ -67,16 +68,15 @@ body[tabindex] { outline: none; }
   cursor: pointer;
 }
 
-#play-button:hover {
-  background: #e03500;
-}
+#play-button:hover, #play-button:focus { color: #ffcc00; outline: 1px dotted; }
+
 
 .movie-section { margin: 30px 20px; }
 .section-header {
   display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;
 }
-.section-title { color: #aaa; font-size: 20px; }
-.see-all { color: #aaa; text-decoration: none; }
+.section-title { color: #00ff00; font-size: 20px; }
+.see-all { color: #00ff00; text-decoration: none; }
 .see-all:hover, .see-all:focus { color: #ffcc00; outline: 1px dotted; }
 
 .movie-row {
@@ -85,21 +85,28 @@ body[tabindex] { outline: none; }
 }
 .movie-card {
   min-width: 160px; 
-height: 90px;
   border-radius: 8px; cursor: pointer;
   background-size: cover; background-position: center; position: relative;
   transition: transform 0.2s;
 }
-.movie-card::after {
-  content: ''; position: absolute; inset: 0; background: linear-gradient(to top, #0009, #0000), rgba(0,0,0,0.3);
-  border-radius: 8px; opacity: 0.8;
-}
+
 .movie-card:focus, .lang-card:focus {
   outline: 3px solid #ffcc00; transform: scale(1.05);
 }
-.movie-card span {
-  position: absolute; bottom: 10px; left: 10px; color: white; font-size: 14px;
+
+.movie-card img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
 }
+
+.movie-card .title {
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+h3 { color: #FFEA00;}
 
 .lang-section { margin: 30px 10px; }
 .lang-card {
@@ -127,7 +134,7 @@ position:absolute;
         
         .overlay-logo4 {
             position: absolute;
-            bottom: 180px;
+            bottom: 270px;
             left: 50px;
             z-index: 12;
             width: 100px;
@@ -138,5 +145,5 @@ body:focus, .focus { outline: none !important; }
 
 @media (max-width: 768px) {
   .hero-slider { height: 40vh; }
-  .movie-card { min-width: 120px; height: 90px; }
+
 }
