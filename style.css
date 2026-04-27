@@ -59,12 +59,12 @@ body[tabindex] { outline: none; }
   color: white;
 }
 #play-button {
-  padding: 0.5rem 1rem;
+  padding: 0.25rem 0.5rem;
   background: #ff4500;
   color: white;
   border: none;
   border-radius: 4px;
-  font-size: 1.1rem;
+  font-size: 0.5rem;
   cursor: pointer;
 }
 
