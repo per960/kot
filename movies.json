@@ -1,4 +1,30 @@
 [
+    
+    {
+        "title": "Satya Devudu",
+        "image": "https://img.youtube.com/vi/eodQQAPSrFw/maxresdefault.jpg",
+        "category": "devotional",
+        "language": "telugu",
+        "type": "movie",
+        "link": "https:\/\/www.youtube.com\/embed\/eodQQAPSrFw"
+    },
+    {
+        "title": "1",
+        "image": "https:\/\/www.dropbox.com\/scl\/fi\/odoe1dtn2fcgumv1wb8lh\/hqdefault-9.jpg?rlkey=k4eorh685f2kb2e65h5bfpi4w&st=3upxfad6&dl=1",
+        "category": "live movies",
+        "language": "telugu",
+        "type": "movie",
+        "link": "https:\/\/www.youtube.com\/embed\/5Wcg4ciop2M"
+    },
+    {
+        "title": "2",
+        "image": "https:\/\/www.dropbox.com\/scl\/fi\/s6lwlkqsl7ztwy94s0700\/hqdefault-5.jpg?rlkey=c4wxixbf1d69nzexysgkds63i&st=fn66g2vw&dl=1",
+        "category": "live movies",
+        "language": "telugu",
+        "type": "movie",
+        "link": "https:\/\/www.youtube.com\/embed\/dPZQe9RmpQI"
+    },
+    
     {
         "title": "Godarollu",
         "image": "https://img.youtube.com/vi/NnNt8OpzlsM/maxresdefault.jpg",
@@ -10,7 +36,7 @@
     {
         "title": "Dhana Dhan",
         "image": "https://img.youtube.com/vi/L9OT_6TQkWs/maxresdefault.jpg",
-        "category": "live web series",
+        "category": "old movies",
         "language": "telugu",
         "type": "Movie",
         "link": "https://www.youtube.com/embed/L9OT_6TQkWs"
@@ -18,7 +44,7 @@
     {
         "title": "Jagadratri",
         "image": "https://img.youtube.com/vi/cgUWV5M_2KE/maxresdefault.jpg",
-        "category": "serials",
+        "category": "old movies",
         "language": "telugu",
         "type": "Movie",
         "link": "https://www.youtube.com/embed/cgUWV5M_2KE"
