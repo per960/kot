@@ -36,12 +36,12 @@ body[tabindex] { outline: none; }
 
 .hero-slider {
   width: 100%;
-  height: 70vh;
+  height: 30vh;
   position: relative;
   overflow: hidden;
   margin-bottom: 1rem;
 border-radius: 10px;
-padding: 0rem 10rem;
+padding: 0rem 16rem;
 
 }
 
@@ -56,7 +56,7 @@ border-radius: 10px;
   bottom: 0;
   left: 0;
   width: 100%;
-  padding: 10rem;
+  padding: 16rem;
 
   color: white;
 }
@@ -148,8 +148,8 @@ position:absolute;
 body:focus, .focus { outline: none !important; }
 
 @media (max-width: 768px) {
-  .hero-slider { height: 40vh;
-padding: 0rem 10rem;
+  .hero-slider { height: 30vh;
+padding: 0rem 16rem;
       
   }
   
