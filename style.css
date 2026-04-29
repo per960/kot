@@ -163,9 +163,11 @@ height:30px;
 font-size: 16px;
 
 }
+}
 
 @media (max-width: 480px) {
-  .hero-slider { height: 30vh; }
+  .hero-slider { height: 40vh; }
+  
 #play-button {
 padding: 0.25rem 0.5rem; }
 
@@ -174,9 +176,17 @@ padding: 0.25rem 0.5rem; }
 .movie-card img {
   height: 60px; }
   
+.movie-card .title {
+  font-size: 12px;
+}
+
+.section-title { color: #00ff00; font-size: 14px; }
+  
 .lang-card {
   min-width: 80px; 
 height:20px;
 font-size: 14px;
 
 }
+}
+
